@@ -1,0 +1,6 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330) [0x7f7eac22c330]
+[0x5302fd8]

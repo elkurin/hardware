@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# xsim v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Jun  8 19:25:58 2017
+# Process ID: 25757
+# Current directory: /home/tansei/hardware/week8
+# Command line: xsim -mode tcl -source {xsim.dir/test_fadd.sim/xsim_script.tcl}
+# Log file: /home/tansei/hardware/week8/xsim.log
+# Journal file: /home/tansei/hardware/week8/xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/test_fadd.sim/xsim_script.tcl
+# xsim {test_fadd.sim} -autoloadwcfg -runall
+Vivado Simulator 2016.4
+Time resolution is 100 ps
+run -all
+x1 = 01111111100000000000000000000000
+
+x2 = 11111111100000000000000000000000
+
+-nan 11111111110000000000000000000000
+
+nan 01111111110000000000000000000000
+
+$finish called at time : 33601352 ns : File "/home/tansei/hardware/week8/test_fadd.sv" Line 141
+run: Time (s): cpu = 00:00:00.01 ; elapsed = 00:01:02 . Memory (MB): peak = 966.305 ; gain = 0.000 ; free physical = 2933 ; free virtual = 28808
+exit
+INFO: [Common 17-206] Exiting xsim at Thu Jun  8 19:27:06 2017...

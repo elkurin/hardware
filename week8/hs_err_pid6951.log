@@ -1,0 +1,16 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330) [0x7f26227d7330]
+/opt/Xilinx/Vivado/2016.4/lib/lnx64.o/librdi_common.so(ComMsgMgrSrcHandle::ComMsgMgrSrcHandle(ComMsgMgrSrcHandle const&)+0x11) [0x7f26234d8561]
+/opt/Xilinx/Vivado/2016.4/lib/lnx64.o/librdi_common.so(ComMsgMgrStorage::getRootMsgHandle()+0x10) [0x7f26234d8f30]
+/opt/Xilinx/Vivado/2016.4/lib/lnx64.o/librdi_common.so(ComMsgMgrImpl::getRootMsgSrcHandle()+0xc) [0x7f262348b64c]
+/opt/Xilinx/Vivado/2016.4/lib/lnx64.o/librdi_common.so(ComMsgMgrImpl::sendMessageWithCheck(ComMsgMgrInstance const&, ComMsgMgrSrcHandle const&, bool)+0x542) [0x7f2623494e22]
+/opt/Xilinx/Vivado/2016.4/lib/lnx64.o/librdi_common.so(ComMsgMgrImpl::sendMessage(ComMsgMgrInstance const&, ComMsgMgrSrcHandle const&, bool)+0x208) [0x7f2623495a48]
+/opt/Xilinx/Vivado/2016.4/lib/lnx64.o/librdi_common.so(ComMsgMgr::sendMessage(ComMsgMgrInstance const&)+0x2b) [0x7f262347475b]
+/opt/Xilinx/Vivado/2016.4/lib/lnx64.o/librdi_common.so(ComMsgMgr::sendMsgString(std::string const&, ComMsgMgr::MsgMask, std::string const&)+0x21) [0x7f26234747f1]
+/opt/Xilinx/Vivado/2016.4/lib/lnx64.o/librdi_common.so(+0x61be52) [0x7f2623723e52]
+/opt/Xilinx/Vivado/2016.4/lib/lnx64.o/libboost_thread.so(+0xeff5) [0x7f2620c6cff5]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8184) [0x7f26227cf184]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f26224fcbed]

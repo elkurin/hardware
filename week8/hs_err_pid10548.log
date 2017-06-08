@@ -1,0 +1,16 @@
+#
+# An unexpected error has occurred (6)
+#
+Stack:
+/lib/x86_64-linux-gnu/libc.so.6(+0x36cb0) [0x7fb26c9a9cb0]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37) [0x7fb26c9a9c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148) [0x7fb26c9ad028]
+/opt/Xilinx/Vivado/2016.4/lib/lnx64.o/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x155) [0x7fb26d1cea95]
+/opt/Xilinx/Vivado/2016.4/lib/lnx64.o/libstdc++.so.6(+0x5dc06) [0x7fb26d1ccc06]
+/opt/Xilinx/Vivado/2016.4/lib/lnx64.o/libstdc++.so.6(+0x5dc33) [0x7fb26d1ccc33]
+/opt/Xilinx/Vivado/2016.4/lib/lnx64.o/libstdc++.so.6(+0x5de5e) [0x7fb26d1cce5e]
+/opt/Xilinx/Vivado/2016.4/lib/lnx64.o/librdi_common.so(+0x284831) [0x7fb26d900831]
+/opt/Xilinx/Vivado/2016.4/lib/lnx64.o/librdi_common.so(+0x61c1b1) [0x7fb26dc981b1]
+/opt/Xilinx/Vivado/2016.4/lib/lnx64.o/libboost_thread.so(+0xeff5) [0x7fb26b1e0ff5]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x8184) [0x7fb26cd43184]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7fb26ca70bed]
